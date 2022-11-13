@@ -3,6 +3,7 @@ package ClassesLexer;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import static ClassesLexer.Reader.reader;
 
 
 public class Main {
@@ -11,7 +12,7 @@ public class Main {
 //    private static int currentLine = 0;
 //    private static int currentCharInLine = 0;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         String filenameToRead;
         System.out.println("Please enter a file to analyze (or quit) ");
         //This part takes in the user input for the file to be read, currently does not have quit option
@@ -26,6 +27,6 @@ public class Main {
             throw new RuntimeException();
         }
         //calling of reader class
-//        reader(filenameToRead);
+        reader(filenameToRead);
     }
 }

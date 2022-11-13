@@ -5,8 +5,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+import static ClassesLexer.Functions.kind;
 import static ClassesLexer.GlobalVariables.*;
 import static ClassesLexer.Main.main;
+import static ClassesLexer.Next.next;
 
 public class Reader {
 
@@ -37,12 +39,12 @@ public class Reader {
                 }
                 //Clause for comment at end of file, allows for skipping with throwing out of bounds error
                 sb.append(" ");
-//                next();
+                next();
             }
             br.close();
             fr.close();
 
-//            kind(null);
+            kind(null);
         } else {
             System.out.println("File name does not exist, try again");
             main(new String[0]);
