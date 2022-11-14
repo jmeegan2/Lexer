@@ -8,10 +8,6 @@ import static ClassesLexer.Reader.reader;
 
 public class Main {
 
-    //Variables
-//    private static int currentLine = 0;
-//    private static int currentCharInLine = 0;
-
     public static void main(String[] args) throws IOException {
         String filenameToRead;
         System.out.println("Please enter a file to analyze (or quit) ");

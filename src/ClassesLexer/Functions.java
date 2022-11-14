@@ -5,6 +5,7 @@ import java.io.IOException;
 import static ClassesLexer.Main.main;
 import static ClassesLexer.GlobalVariables.*;
 
+
 public class Functions {
 
 
@@ -68,6 +69,7 @@ public class Functions {
         munchedSymbol = "";
     }
     public static String position(int currentLine, int currentCharInLine) {
+        currentCharInLine = 0;
         return (currentLine) + ":" + (currentCharInLine);
     }
     public static char[] stringToChar (StringBuilder sb) {

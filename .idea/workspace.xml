@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1cb06a6-a421-4afe-bfe1-3d948a23e599" name="Changes" comment="done for project 1, I was really just reworking a previous version I had" />
+    <list default="true" id="b1cb06a6-a421-4afe-bfe1-3d948a23e599" name="Changes" comment="going to attempt to fix position function">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassesLexer/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassesLexer/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassesLexer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassesLexer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCases/lexInputNotOk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCases_Lexer/lexInputNotOk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCases/non-sense2-output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCases_Lexer/non-sense2-output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCases/non-sense2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCases_Lexer/non-sense2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCases/numTesting.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCases_Lexer/numTesting.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCases/tricky-output(1).txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCases_Lexer/tricky-output(1).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCases/tricky.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCases_Lexer/tricky.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668380798347</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="going to attempt to fix position function">
+      <created>1668380963293</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668380963293</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main, reader, GlobalVariables classes have been made, going to make the next class" />
     <MESSAGE value="done for project 1, I was really just reworking a previous version I had" />
-    <option name="LAST_COMMIT_MESSAGE" value="done for project 1, I was really just reworking a previous version I had" />
+    <MESSAGE value="going to attempt to fix position function" />
+    <option name="LAST_COMMIT_MESSAGE" value="going to attempt to fix position function" />
   </component>
 </project>
